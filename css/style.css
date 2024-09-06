@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.my-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#meridiem {
+    padding-left: 2.5%;
+    color: #FFC107;
+}
+
+@media only screen and (max-width: 576px) {
+    #timer, #meridiem {
+        font-size: 8vh;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #timer, #meridiem {
+        font-size: 9vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #timer, #meridiem {
+        font-size: 12vh;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #timer, #meridiem {
+        font-size: 13vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #timer, #meridiem {
+        font-size: 17vh;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #timer, #meridiem {
+        font-size: 21vh;
+    }
+}
+
