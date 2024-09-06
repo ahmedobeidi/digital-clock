@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-.my-container {
+.container {
     display: flex;
     height: 100vh;
     justify-content: center;
